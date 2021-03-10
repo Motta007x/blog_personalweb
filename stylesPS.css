@@ -1,0 +1,122 @@
+    body{
+        background-color:#cccccc;
+      }
+      div.contenedor{
+          width: 100%;
+          border: 1px solid gray;
+      }
+      
+      header, footer {
+          padding: 1em;
+          color: rgb(253, 243, 243);
+          background-color: black;
+          clear: left;
+          text-align: center;
+      }
+      
+      nav {
+        background-color:  #f38c16;
+          float: left;
+          padding: 1em;
+      }
+      
+      nav ul {
+          list-style-type: none; /* elimina viñeta*/
+          padding: 2rem;
+      }
+      
+      nav ul a {
+          text-decoration: none;
+      
+      }
+      
+      a.active {
+          color: red;
+      }
+      
+      article {
+          margin-left: 145px;
+          border-left: 1px solid gray;
+          padding: 1em;
+          overflow: hidden;
+          background-color: #cccccc;
+          background-repeat:repeat-y; /*no-repeat;*/
+          /*background-size:300px 180px;*/
+      }
+      
+      p{
+        margin-left: 300px;
+      }
+      
+      h1{
+        text-align:center;
+        font-size: 150%;
+      }
+      
+      
+      
+      #mexico{
+        color:green;
+      }
+      
+      #londres{
+        color:red;
+      }
+      
+      #paris{
+        color:blue;
+      }
+      
+      #tokyo{
+        color:FireBrick;
+      }
+      
+      .banderaMex{
+        background-image: url("images/mexico.jpg");
+        background-repeat: no-repeat;
+        }
+      .banderaLon{
+        background-image: url("images/london.jpg");
+        background-repeat: no-repeat;
+      }
+      .banderaPar{
+        background-image: url("images/paris.jpg");
+        background-repeat: no-repeat;
+      }
+      .banderaTok{
+        background-image: url("images/tokyo.jpg");
+        background-repeat: no-repeat;
+      }
+      .himno{
+        text-align: center;
+        background-color: #cccccc;
+        padding: 10px;
+        color: #141018;
+      }
+
+      .navegacion-principal{
+        display: flex;
+        justify-content: space-around;
+        background-color:  #f38c16;
+        list-style-type: none;
+        margin-bottom: 30px;
+        padding: 10px;
+        }
+        
+        /* -- CSS navbar -- */
+        .navegacion-principal a{
+        padding: 10px;
+        text-decoration: none;
+        font-size: medium;
+        color: #ffffff;
+        padding: 10px;
+        font-size: 1.5em;
+        border-radius: 20px;
+        }
+        .navegacion-principal a:hover{
+            color: #000000;
+            background-color: #FFF;
+        }
+        li a, .dropbtn {
+            display: inline-block;
+        }

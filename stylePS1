@@ -1,0 +1,93 @@
+.headerpro{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;/*no repite imagen*/
+    background-size: cover; /*imagen se adapta al tamaño del navegador*/
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+body{
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to top,#f1af86 0%, #dbd179  100%);
+    margin: auto;
+}
+
+
+.titulo{
+    position: absolute;
+    /* background-color: rgba(0, 0, 0,.7); Anterior */
+    background-color: rgb(0 0 0 /30%);
+    width: 100%;
+    height: 100%;
+    /** PARA CENTRAR CUALQUIER COSA SE USA EL SIGUIENTE CODIGO*/
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8e0b0b;
+    margin-bottom: 20px;
+}
+
+
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+
+.topnav li a:hover:not(.active) {
+    background-color: #e6610e;
+}
+
+ul.topnav li a.active {
+    background-color: #4CAF50;
+}
+ul.topnav li.right {float: right;}
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+.contenedorini{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    max-width: 600px;
+    line-height: 1.2;
+    background-color: #d5460d;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+}
+.contenedorini div{
+    padding: 10px;
+}
+p{
+    font-size: 1.5em;
+}
+.titulo h1{
+    color: #ffffff
+}
+.contenedorini h2{
+    color: #ffffff
+}
+
+.redes a{
+text-decoration: none;
+font-size: 2.5em;
+color: bisque;
+}
